@@ -1,0 +1,107 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color:orange;
+}
+
+.flexible-container{
+    display:flex;
+    margin-bottom: 150px;
+
+}
+    
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    background-color: orange;
+    padding: 10px 40px;
+    color:white;
+    border-radius: 5px;
+}
+#about{
+    background-image: url("images/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.about-img img{
+    width: 350px;
+    height: auto;
+    margin-bottom: -10px;
+}
+.about-text{
+    padding-top: 50px;
+}
+
+#my-recipies{
+    padding:100px;
+}
+.recipies{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.row{
+    width: 90%;
+    margin: auto;
+    
+}
+.column3 img{
+    width: 290px;
+    border-radius: 30px;
+}
+.column3 h2{
+   font-size: 30px;
+}
+
+.column3{
+    width:33%;
+    margin-left: 3%;
+    margin-right: 2%;
+    padding:1% ;
+    box-shadow: 10px 10px 10px 10px gray;
+    border-radius: 5px ;
+}
+
+#follow{
+        
+    background: linear-gradient(#00000075,#00000075), linear-gradient(#00000075,#00000075),url("images/Project\ Cover4.png"); ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    background-attachment: fixed;
+    text-align: center;
+    
+}
+
+.follow-button{
+text-decoration: none;
+background: brown;
+padding: 10px 40px;
+border-radius: 25px;
+color: rgb(218, 216, 216);
+box-shadow: 5px 5px 5px #242424;
+
+
+}
+
+footer{
+background-color: black;
+padding: 50px 100px;
+color: white;
+text-align: center;
+
+}
